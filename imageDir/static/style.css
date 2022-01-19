@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
+.main {
+    background-color: bisque;
+    padding: auto;
+}
+#button {
+    height: 10em;
+    width: 30em;
+    background-color: aqua;
+    font-weight: bold ;
+    color: black;
+    font-size: large;
+    
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<title>Welcome !</title>
+	</head>
+	<body>
+
+        <div class = "main">
+            <h3> Please click on one of the option to continue !! </h3>
+			<form action="{{ url_for('login') }}" method="post">
+				<input id="button" name = "private" type="submit" value=" Login Private ">
+			</form>
+            <form action="{{ url_for('imageUpload') }}" method="post">
+				<input id="button" name = "public" type="submit" value="Public">
+			</form>
+
+        </div>
+	</body>
+</html>
